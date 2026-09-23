@@ -1,0 +1,22 @@
+{
+  "name": "fulgurite.tables",
+  "displayName": "Tables",
+  "version": "0.1.0",
+  "description": "Tab between table cells and keep the columns lined up, like Obsidian's Advanced Tables",
+  "repository": "https://github.com/Fulgurite-Plugin/tables",
+  "main": "main.js",
+  "isDesktopOnly": false,
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --format=iife --global-name=__plugin --target=es2022 --outfile=main.js",
+    "check": "tsc --noEmit",
+    "preversion": "npm run check",
+    "version": "npm run build && git add main.js",
+    "postversion": "git push --follow-tags"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "fulgurite": "github:Fulgurite-Plugin/api#v0.1.0",
+    "typescript": "^5.6.0"
+  }
+}
