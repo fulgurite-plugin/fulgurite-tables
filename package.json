@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "Tab between table cells and keep the columns lined up, like Obsidian's Advanced Tables",
   "repository": "https://github.com/Fulgurite-Plugin/tables",
+  "license": "MIT",
   "main": "main.js",
   "isDesktopOnly": false,
   "private": true,
