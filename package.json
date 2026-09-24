@@ -1,7 +1,7 @@
 {
   "name": "fulgurite.tables",
   "displayName": "Tables",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tab between table cells and keep the columns lined up, like Obsidian's Advanced Tables",
   "repository": "https://github.com/Fulgurite-Plugin/fulgurite-tables",
   "license": "MIT",
