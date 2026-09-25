@@ -1,6 +1,6 @@
 # Tables
 
-Markdown tables in [Fulgurite](https://github.com/Fulgurite-Plugin), like Obsidian's Advanced Tables. In a table (in
+Markdown tables in [fulgurite](https://github.com/fulgurite-plugin), like Obsidian's Advanced Tables. In a table (in
 insert mode, with Vim):
 
 - Tab / Shift-Tab: the next / previous cell
@@ -12,4 +12,4 @@ is the `|---|` rule.
 
 ## Development
 
-See [api](https://github.com/Fulgurite-Plugin/fulgurite-api).
+See [api](https://github.com/fulgurite-plugin/fulgurite-api).
